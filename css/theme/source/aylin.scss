@@ -1,0 +1,47 @@
+/**
+ * Theme to match personal brand
+ *
+ * By Aylin MArie, https://www.aylinmarie.co
+ */
+
+
+// Default mixins and settings -----------------
+@import "../template/mixins";
+@import "../template/settings";
+// ---------------------------------------------
+
+
+// Include theme-specific fonts
+@import url('https://fonts.googleapis.com/css?family=Cutive+Mono');
+
+
+// Override theme settings (see ../template/settings.scss)
+$backgroundColor: #F5EFED;
+
+$mainColor: #2d2d2b;
+$headingColor: #2d2d2b;
+
+$mainFontSize: 42px;
+$mainFont: 'Source Sans Pro', Helvetica, sans-serif;
+$codeFont: 'Cutive Mono', monospace;
+$headingFont: 'Source Sans Pro', Helvetica, sans-serif;
+$headingTextShadow: none;
+$headingLetterSpacing: normal;
+$headingTextTransform: normal;
+$headingFontWeight: 600;
+$linkColor: #975f49;
+$linkColorHover: lighten( $linkColor, 15% );
+$selectionBackgroundColor: lighten( $linkColor, 25% );
+
+$heading1Size: 2.5em;
+$heading2Size: 1.6em;
+$heading3Size: 1.3em;
+$heading4Size: 1.0em;
+
+// Change text colors against dark slide backgrounds
+@include dark-bg-text-color(#fff);
+
+
+// Theme template ------------------------------
+@import "../template/theme";
+// ---------------------------------------------
