@@ -12,8 +12,9 @@
 
 
 // Include theme-specific fonts
+@import url("https://use.typekit.net/hia5evq.css");
 @import url('https://fonts.googleapis.com/css?family=Cutive+Mono');
-
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;1,200;1,300&display=swap');
 
 // Override theme settings (see ../template/settings.scss)
 $backgroundColor: #F5EFED;
@@ -21,14 +22,14 @@ $backgroundColor: #F5EFED;
 $mainColor: #2d2d2b;
 $headingColor: #2d2d2b;
 
-$mainFontSize: 42px;
-$mainFont: 'Source Sans Pro', Helvetica, sans-serif;
+$mainFontSize: 32px;
+$mainFont: 'Mulish', sans-serif;;
 $codeFont: 'Cutive Mono', monospace;
-$headingFont: 'Source Sans Pro', Helvetica, sans-serif;
+$headingFont: ivypresto-display, serif;
 $headingTextShadow: none;
 $headingLetterSpacing: normal;
 $headingTextTransform: normal;
-$headingFontWeight: 600;
+$headingFontWeight: 400;
 $linkColor: #975f49;
 $linkColorHover: lighten( $linkColor, 15% );
 $selectionBackgroundColor: lighten( $linkColor, 25% );
